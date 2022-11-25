@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   icon: Icons.account_box,
                   label: 'Profile',
                   onPressed: () {
-                    Navigator.pushNamed(context, ProfileScreen.id);
+                    Navigator.pushNamed(context, EditProfileScreen.id);
                   },
                 ),
                 CustomCircleButton(

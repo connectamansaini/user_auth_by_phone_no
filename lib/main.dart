@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         AuthPhone.id: (context) => const AuthPhone(),
         VerifyOTP.id: (context) => const VerifyOTP(),
         HomeScreen.id: (context) => const HomeScreen(),
-        ProfileScreen.id: (context) => const ProfileScreen(),
+        EditProfileScreen.id: (context) => const EditProfileScreen(),
       },
       theme: ThemeData(
         primarySwatch: Colors.blue,
